@@ -13,7 +13,7 @@ SECRET_KEY = 'django-insecure-j_89af+30&&4qm*8z9_(^zz8p4-ho8z_m6ylm0s$h!-p@on1_^
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['lera.hopto.org']
+ALLOWED_HOSTS = ['84.201.162.140', '127.0.0.1', 'localhost','lera.hopto.org']
 # os.getenv('ALLOWED_HOSTS').split(',')
 
 
@@ -42,7 +42,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'backend.urls'
+ROOT_URLCONF = 'taski_backend.urls'
 
 TEMPLATES = [
     {
@@ -60,7 +60,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'backend.wsgi.application'
+WSGI_APPLICATION = 'taski_backend.wsgi.application'
 
 
 # Database
